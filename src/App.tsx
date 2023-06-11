@@ -6,8 +6,8 @@ import TodoForm from "./features/todo/TodoForm";
 function App() {
   return (
     <Grid>
-      <Todos />
       <TodoForm />
+      <Todos />
     </Grid>
   );
 }
