@@ -27,8 +27,8 @@ const Todos = () => {
             justifyContent="flex-start"
             minWidth="12rem"
           >
-            <Typography sx={{ fontSize: `${14 * 1.68}px` }}>{todo.title}</Typography>
-            <Typography sx={{ fontSize: "14px", color: "#AAA" }}>{todo.body}</Typography>
+            <Typography sx={{ fontSize: `${14 * 1.68}px`, fontWeight: 500 }}>{todo.title}</Typography>
+            <Typography sx={{ fontSize: "14px", color: "#555" }}>{todo.body}</Typography>
             <DeleteOutlinedIcon
               color="error"
               sx={{
